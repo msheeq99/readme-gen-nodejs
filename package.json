@@ -1,0 +1,14 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "enerate easily  a README file for your next new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Mohamud Sheeq",
+  "license": "ISC"
+}
