@@ -1,6 +1,8 @@
+const generateMarkdown = require("./utils/generateMarkdown");
+
 const inquirer = require("inquirer");
+
 const fs = require("fs");
-const generateMarkdown = require("./Develop/utils/generateMarkdown")
 
 // questions holds an array of 7 values(6 indexes)
 const questions = [
@@ -37,44 +39,48 @@ async function collectAnswersAndGenerateReadMe() {
 // then it replaces, specified contents, with the values from our inquirer prompt
 // then it spits out all of that data, in format, to a README.MD file
 async function generateReadme(answers) {
-  const READMEDocument = await fs.promises.readFile("index.md", "utf8");
-  const READMEfile = READMEDocument.replace(
-    "$Name",
-    `# Title
-${answers.Name}`
-  )
-    .replace(
-      "$Description",
-      `## Description
-${answers.Description}`
+   fs.readFile("index.md", "utf8", callback);
+   function callback(error, data){
+    const READMEfile = data.replace(
+      "$Name",
+      `# Title
+  ${answers.Name}`
     )
-    .replace(
-      "$Github",
-      `## GitHub
-${answers.GitHub}`
-    )
-    .replace(
-      "$Email",
-      `## Email
-${answers.Email}`
-    )
-    .replace(
-      "$License",
-      `## License
-${answers.License}`
-    )
-    .replace(
-      "$Usage",
-      `## Usage
-${answers.Usage}`
-    )
-    .replace(
-      "$Installation",
-      `## Installation
-${answers.Installation}`
-    );
-  await fs.promises.writeFile("./README.md", READMEfile);
-  console.log(READMEfile);
+      .replace(
+        "$Description",
+        `## Description
+  ${answers.Description}`
+      )
+      .replace(
+        "$Github",
+        `## GitHub
+  ${answers.GitHub}`
+      )
+      .replace(
+        "$Email",
+        `## Email
+  ${answers.Email}`
+      )
+      .replace(
+        "$License",
+        `## License
+  ${answers.License}`
+      )
+      .replace(
+        "$Usage",
+        `## Usage
+  ${answers.Usage}`
+      )
+      .replace(
+        "$Installation",
+        `## Installation
+  ${answers.Installation}`
+      );
+    fs.writeFile("./README.md", READMEfile, ()=>{console.log(READMEfile)});
+    
+  
+  }
+  
 }
 
 

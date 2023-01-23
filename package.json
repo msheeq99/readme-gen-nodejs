@@ -1,7 +1,7 @@
 {
-  "name": "yes",
+  "name": "readme-gen-nodejs",
   "version": "1.0.0",
-  "description": "enerate easily  a README file for your next new project",
+  "description": "generate easily  a README file for your next new project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,15 @@
   ],
   "author": "Mohamud Sheeq",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msheeq99/readme-gen-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/msheeq99/readme-gen-nodejs/issues"
+  },
+  "homepage": "https://github.com/msheeq99/readme-gen-nodejs#readme",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^8.2.5"
   }
 }
