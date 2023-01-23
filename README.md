@@ -14,5 +14,5 @@
  
 %Usage  documentation files (the "Software"), to deal in the Software without restriction, including without limitation
 
-%Installation 
+%Installation  of the Software.
 
