@@ -10,5 +10,5 @@ $License  Permission is hereby granted, free of charge, to any person obtaining 
  
 $Usage  documentation files (the "Software"), to deal in the Software without restriction, including without limitation
 
-$Installation 
+$Installation of the Software.
 
