@@ -37,4 +37,4 @@ $Github
 
 ?
 
-Any further questions please email me using this email address =
+Any further questions please email me using this email address $Email
