@@ -4,7 +4,7 @@ $Description  This web application is a README.Md generator, this is used to pro
 
 $Github  https://github.com/msheeq99/readme-gen-nodejs
 
-$Email  msheeq99@outloouk.com 
+$Email  msheeq99@outlook.com 
 
 $License  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
  
