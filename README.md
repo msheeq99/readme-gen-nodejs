@@ -10,6 +10,7 @@
 8. [Email](#Email)
 
 ## Description
+This web application is a README.Md generator, this is used to produce a high-grade README. I have utilized the inquirer PACKAGE which has actually permitted me to use inquiries as prompts, I have then made use of the answers to the questions to fill in the README.Md.
 
 
 
@@ -19,26 +20,33 @@ Using node.js and Gitlab link
 
 
 ## Usage
-To create high-quality readme.md's and takes Backend users inputs from the terminal and populates a markdown based upon user inputs/selections
+To create high-quality readme.md's and takes Backend users inputs from the terminal and populates a markdown based upon user inputs/selections.
 
 
 
-$Contributing
+## Contributing
+Inquirer 
 
 
 
-$Tests
+## Tests
+None Applicable
 
 
 
 ## License
-undefined
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 
 
 
-## GitHub
+## Github
 https://github.com/msheeq99/readme-gen-nodejs
 
-?
 
-Any further questions please email me using this email address =
+
+## Email
+msheeq99@outlook.com 
+
+All done, have a great day buddy !
+
+
