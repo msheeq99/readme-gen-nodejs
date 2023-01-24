@@ -16,6 +16,17 @@ const questions = [
   "Email"
 ];
 
+
+const licenseQuestions = {
+  type: "list",
+  name: "License",
+  message: "License",
+  choices: [,
+    "The MIT License",
+  ],
+};
+
+
 //loop through questions array and grab each value for 0-6 and spit it out as "it"
 const inquirerQuestions = questions.map((it) => {
   return {
@@ -57,19 +68,9 @@ ${answers.Name}`
 ${answers.Description}`
     )
     .replace(
-      "$Github",
-      `## GitHub
-${answers.GitHub}`
-    )
-    .replace(
-      "$Email",
-      `## Email
-${answers.Email}`
-    )
-    .replace(
-      "$License",
-      `## License
-${answers.License}`
+      "$Installation",
+      `## Installation
+${answers.Installation}`
     )
     .replace(
       "$Usage",
@@ -77,9 +78,34 @@ ${answers.License}`
 ${answers.Usage}`
     )
     .replace(
+      "$Contributing",
+      `## Contributing
+${answers.Contributing}`
+    )
+    .replace(
+      "$Tests",
+      `## Tests
+${answers.Tests}`
+    )
+    .replace(
+      "$License",
+      `## License
+${answers.License}`
+    )
+    .replace(
       "$Installation",
       `## Installation
 ${answers.Installation}`
+    )
+    .replace(
+      "$GitHub",
+      `## GitHub
+${answers.GitHub}`
+    )
+    .replace(
+      "$Email",
+      `## Email
+${answers.Email}`
     );
   fs.writeFile("./README.md", READMEfile, ()=>{console.log(READMEfile)});
   }

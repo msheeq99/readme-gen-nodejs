@@ -9,7 +9,7 @@
 7. [Github](#Github)
 8. [Email](#Email)
 
-## Description
+$Description
 
 
 
@@ -33,8 +33,10 @@ $License
 
 
 
-$Github
+$GitHub
 
 
+
+$Email
 
 All done, have a great day buddy !
