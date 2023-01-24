@@ -35,6 +35,6 @@ $License
 
 $Github
 
-?
 
-Any further questions please email me using this email address $Email
+
+All done, have a great day buddy !
